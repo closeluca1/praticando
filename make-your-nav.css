@@ -1,0 +1,23 @@
+#myrn nav, ul{
+    width: 100%;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#myrn li{
+    width: 100px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #000;
+    font-family: 'Baloo Tamma 2', cursive;;
+    list-style: none;
+    background: #004275;
+}
+#myrn li:hover{
+    cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
