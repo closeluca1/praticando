@@ -20,4 +20,29 @@ body{
     box-shadow: 0 0 20px #02a387;
     background: #e1f0ed;
   }
+  .solo1{
+    max-width: 768px;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+  }
+  .halfmiddle{
+    max-width: 768px;
+    min-height: 768px;
+    display: flex;
+    flex-direction: row;
+  }
+  main{
+    width: 70%;
+    min-height: 768px;
+    display: flex;
+    flex-direction: colum;
+  }
+  aside{
+    width: 30%;
+    min-height: 768px;
+    border-left: 1px solid #000;
+  }
 }
