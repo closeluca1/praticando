@@ -20,4 +20,11 @@
 #myrn li:hover{
     cursor: pointer;
 }
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+.options-line{
+    margin: 10px 0 10px 0;
+}
+textarea{
+    min-width: 400px;
+    min-height: 200px;
+    margin: 10px 0 10px 0;
+}
