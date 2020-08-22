@@ -1,0 +1,96 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>O que sei fazer</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="make you nav menu faça seu menu nav com poucos cliques">
+            <meta name="robots" content="projetos, follow">
+            <meta name="author" content="Patrick Lucas (closeluca)">
+            <link rel="shortcut icon" href="https://cvpatrick-f33b6.firebaseapp.com/imagens/logo.png">
+            <link rel="stylesheet" type="text/css" href="mainstyle.css">
+            <link rel="stylesheet" type="text/css" href="make-your-nav.css">
+        </head>
+        <body>
+            <div class="container">
+                <header>
+                    <div class="space-foto"></div>
+                    <h3>Patrick Lucas M</h3>
+                    <h3>Desenvolvedor Front-End</h3>
+                    <a href="https://github.com/closeluca1" target="blank" rel="noopener noreferrer"> <div class="meu-git"></div alt="Github Patrick Lucas Martins, HTML CSS JS"></a>
+                    <div class="box-down">
+                        <a href="./index.html" class="menu">home</a>
+                    </div>
+                </header>
+                <main>
+                    <span>Esse contéudo não esta disponível para visualização em <i>mobile screen</i>.</span>
+                    <div class="allpage">
+                        <nav id="myrn">
+                            <ul>
+                                <li>page1</li>
+                                <li>page2</li>
+                                <li>page3</li>
+                                <li>page4</li>
+                                <li>page5</li>
+                            </ul>
+                        </nav>
+                        <div class="code-area">
+                            <div class="options-line">
+                                <span>li width &nbsp;</span>
+                                <input type="text" id="li-width" value="100px">
+                                <button onclick="changeliwidth()">confirm</button>
+                            </div>
+                            <div class="options-line">
+                                <span>li height &nbsp;</span>
+                                <input type="text" id="li-height" value="50px">
+                                <button onclick="changeliheight()">confirm</button>
+                            </div>
+                            <div class="options-line">
+                              <span>li background &nbsp;</span>
+                              <input type="text" id="li-bg" value="#004275">
+                              <button onclick="changelibg()">confirm</button>
+                            </div>
+                            <div class="options-line">
+                              <span>li border &nbsp;</span>
+                              <input type="text" id="li-border" value="#A01900">
+                              <button onclick="changeliborder()">confirm</button>
+                            </div>
+                            <textarea>
+                              <nav id="myrn">
+                                <ul>
+                                    <li>page1</li>
+                                    <li>page2</li>
+                                    <li>page3</li>
+                                    <li>page4</li>
+                                    <li>page5</li>
+                                </ul>
+                              </nav>
+                            </textarea>
+                            <div class="code-area" style="margin-top:25px">
+                            <span>your code will appear here</span>
+                              <p>&lt;style&gt;</p>
+                              <p>@charset "UTF-8";</p>
+                              <p id="final-li-width"></p>
+                              <p id="final-li-height"></p>
+                              <p>display: flex;</p>
+                              <p>flex-direction: row;</p>
+                              <p>justify-content: center;</p>
+                              <p id="final-li-bg"></p>
+                              <p id="final-li-border"></p>
+                              <p>&lt;/style&gt;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
+                <footer>
+                    <h6>e-mail para contato; cvpatricklucasm@gmail.com</h6>
+                </footer>
+            </div>
+        </body>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        </style>
+        <script src="./mainscript.js"></script>
+        <script src="./make-your-nav.js"></script>
+    </html>
