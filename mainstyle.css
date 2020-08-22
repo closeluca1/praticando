@@ -1,158 +1,133 @@
 @charset "UTF-8";
 *{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  background: #e0e0e0;
-  text-align: justify;
-}
-@media (min-width: 768px){
-  .container{
-    min-width: 768px;
-    min-height: 768px;
-    display: flex;
-    flex-direction: column;
-    
-  }
-  .solo1{
-    max-width: 768px;
-    height: 50px;
-    color: #fff;
-    background: #292f3b;
-    box-shadow: 0 0 10px #262c38;
-  }
-  .halfmiddle{
-    max-width: 768px;
-    min-height: 768px;
-    display: flex;
-    flex-direction: row;
-    margin: 25px 0 25px 0;
-  }
-  header{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  header h1:hover{
-    cursor: pointer;
-  }
-  main{
-    width: 70%;
-    min-height: 768px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .allpage{
-    width: 536px;
-    min-height: 768px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: #fff;
-  }
-  aside{
-    width: 30%;
-    min-height: 768px;
-    border-left: 1px solid #000;
-    background: #fff;
-  }
-  aside p{
-    color: #A3351A;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: 'Baloo Tamma 2', cursive;
-  }
-  footer{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-      justify-content: space-evenly;
-  }
-  section{
-      width:500px;
-      height: 200px;
-      margin: 15px 0 15px 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      box-shadow: 0 0 30px #CCC8CB;
-      background: #fff;
-  }
-  .downspace{
-      width: 100%;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      margin: 0 0 0 -25px;
-  }
-  p{
-    margin: 0 25px 0 25px;
-    text-indent: 25px;
-    font-family: 'Roboto', sans-serif;
-  }
-  h1{
-    text-transform: uppercase;
-    font-family: 'Baloo Tamma 2', cursive;
-    margin: 10px 10px 0;
-  }
-  h2{
-    text-transform: uppercase;
-    font-family: 'Baloo Tamma 2', cursive;
-    margin: 10px 10px 0;
-  }
-  h4{
-    text-transform: uppercase;
-    font-family: 'Baloo Tamma 2', cursive;
-    margin: 10px 10px 0;
-  }
-  h6{
-    text-transform: uppercase;
-    font-family: 'Baloo Tamma 2', cursive;
-  }
-
-  aside a{
-    margin: 10px 20px 0;
-  }
-  .code-area{
-      width: 90%;
-      min-height: 50px;
-      display: flex;
-      flex-direction: column;
-      margin: 100px 25px 15px 25px;
-  }
-  .code-area input, button{
-      width: 100px;
-      height: 20px;
-      text-align: center;
-  }
-  .options-line{
     width: 100%;
-    min-height: 50px;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-  }
-  textarea{
-      width: 400px;
-      height: 200px;
-      max-width: 400px;
-      max-height: 200px;
-  }
+    justify-content: center;
+}
+@media(min-width: 320px){
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        width: 100vw;
+        min-height: 200px;
+        max-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #fff;
+        background: #0F2C40;
+    }
+    .space-foto{
+        min-width: 90px;
+        min-height: 90px;
+        max-width: 90px;
+        max-height: 90px;
+        overflow: hidden;
+        /* border: 1px solid #000; */
+        border-radius: 100px;
+        background-image: url("https://cvpatrick-f33b6.firebaseapp.com/imagens/logo.png");
+    }
+    .meu-git{
+        width: 25px;
+        height: 25px;
+        outline: 0;
+        box-shadow: #0F2C40;
+        background-image: url("./git1.png");
+        background-size: 25px 25px;
+    }
+    .meu-git:hover{
+        transition: 2s, 2s, 2s;
+        background-image: url("./git2.png");
+    }
+    .box-down{
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menu{
+        font-size: 20px;
+        color: #fff;
+        text-decoration: underline #DB3111;
+        margin-right: 25px;
+    }
+    main{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item{
+        width: 70vw;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px 0 10px 0;
+        /* border: 1px solid #000; */
+    }
+    .item img{
+        width: 100px;
+        height: 100px;
+    }
+    footer{
+        width: 100vw;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background: #0B2130;
+    }
+    h2{
+        text-indent: 25px;
+        text-align: justify;
+        font-size: 2.2vh;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h3, h6{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .allpage{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px){
+    body{
+        background: #d2d2d2;
+    }
+    header, footer{
+        width: 768px;
+    }
+    main{
+        width: 768px;
+        min-height: 768px;
+        background: #fff;
+    }
+    .item{
+        width: 500px;
+        margin: 20px 0 20px 0;
+    }
+    .allpage{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 10px 0;
+    }
 }
 
 a, a:hover, a:active, a:visited{
-    color: #A3351A;
-    cursor: pointer;
     text-decoration: none;
-    font-family: 'Baloo Tamma 2', cursive;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
